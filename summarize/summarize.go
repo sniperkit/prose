@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package summarize implements utilities for computing readability scores, usage statistics, and TL;DR summaries of text.
 */
 package summarize
@@ -8,10 +13,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/jdkato/prose/internal/util"
-	"github.com/jdkato/prose/tokenize"
-
 	"github.com/montanaflynn/stats"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/tokenize"
 )
 
 // A Word represents a single word in a Document.

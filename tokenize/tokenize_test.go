@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package tokenize
 
 import (
@@ -6,8 +11,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jdkato/prose/internal/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 var testdata = filepath.Join("..", "testdata")

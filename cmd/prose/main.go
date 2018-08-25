@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -8,8 +13,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jdkato/prose/tag"
 	"github.com/urfave/cli"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/tag"
 )
 
 // Version is the semantic version number

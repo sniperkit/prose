@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package summarize
 
 import (
 	"strings"
 
-	"github.com/jdkato/prose/internal/util"
 	"github.com/montanaflynn/stats"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 // WordDensity returns a map of each word and its density.

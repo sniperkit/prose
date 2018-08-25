@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package tag
 
 import (
@@ -6,8 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jdkato/prose/internal/util"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 var wsj = "Pierre|NNP Vinken|NNP ,|, 61|CD years|NNS old|JJ ,|, will|MD " +

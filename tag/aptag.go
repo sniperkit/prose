@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2013 Matthew Honnibal
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -25,10 +30,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jdkato/prose/internal/model"
-	"github.com/jdkato/prose/internal/util"
 	"github.com/montanaflynn/stats"
 	"github.com/shogo82148/go-shuffle"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/model"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 var none = regexp.MustCompile(`^(?:0|\*[\w?]\*|\*\-\d{1,3}|\*[A-Z]+\*\-\d{1,3}|\*)$`)

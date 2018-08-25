@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // The MIT License (MIT)
 //
 // Copyright (c) 2015 Kevin S. Dias
@@ -29,7 +34,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jdkato/prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 /* Public API */

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package summarize
 
 import (
@@ -7,9 +12,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jdkato/prose/internal/util"
 	"github.com/montanaflynn/stats"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 func TestSyllables(t *testing.T) {

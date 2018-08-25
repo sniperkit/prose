@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package chunk implements functions for finding useful chunks in text previously tagged from parts of speech.
 //
 package chunk
@@ -5,7 +10,7 @@ package chunk
 import (
 	"regexp"
 
-	"github.com/jdkato/prose/tag"
+	"github.com/sniperkit/snk.fork.jdkato-prose/tag"
 )
 
 // quadString creates a string containing all of the tags, each padded to 4

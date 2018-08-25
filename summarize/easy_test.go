@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package summarize
 
 import (
@@ -5,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jdkato/prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 func BenchmarkEasyWordsLookup(b *testing.B) {

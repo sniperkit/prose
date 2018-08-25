@@ -1,9 +1,16 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package tag implements functions for tagging parts of speech.
 */
 package tag
 
-import "strings"
+import (
+	"strings"
+)
 
 // Token represents a tagged section of text.
 type Token struct {

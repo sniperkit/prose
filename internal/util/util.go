@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package util contains internals used across the other prose packages.
 */
 package util

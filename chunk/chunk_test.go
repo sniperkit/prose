@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package chunk
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/jdkato/prose/tag"
-	"github.com/jdkato/prose/tokenize"
+	"github.com/sniperkit/snk.fork.jdkato-prose/tag"
+	"github.com/sniperkit/snk.fork.jdkato-prose/tokenize"
 )
 
 func Example() {

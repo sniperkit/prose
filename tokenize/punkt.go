@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2015 Eric Bower
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,9 +29,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jdkato/prose/internal/util"
 	"gopkg.in/neurosnap/sentences.v1"
 	"gopkg.in/neurosnap/sentences.v1/data"
+
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 // PunktSentenceTokenizer is an extension of the Go implementation of the Punkt

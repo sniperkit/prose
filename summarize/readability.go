@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package summarize
 
 import (
 	"math"
 
-	"github.com/jdkato/prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 // FleschKincaid computes the Flesch–Kincaid grade level

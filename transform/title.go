@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package transform
 
 import (
@@ -6,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/jdkato/prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 // An IgnoreFunc is a TitleConverter callback that decides whether or not the

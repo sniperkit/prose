@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package tokenize
 
-import "regexp"
+import (
+	"regexp"
+)
 
 // RegexpTokenizer splits a string into substrings using a regular expression.
 type RegexpTokenizer struct {

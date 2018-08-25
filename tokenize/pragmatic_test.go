@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package tokenize
 
 import (
@@ -6,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jdkato/prose/internal/util"
+	"github.com/sniperkit/snk.fork.jdkato-prose/internal/util"
 )
 
 type goldenRule struct {

@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Package tokenize implements functions to split strings into slices of substrings.
 */
 package tokenize
